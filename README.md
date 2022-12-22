@@ -7,12 +7,16 @@ To write a python program to find the inverse of a matrix
 ## Algorithm:
 ### Step1 : 
 Import numpy package
+
 ### Step 2: 
 Get the input matrix
+
 ### Step 3:
 Find the inverse of the matrix
+
 ### Step 4: 
 End the program
+
 ## Program:
 ```python
 #Program to find the inverse of a matrix.
@@ -20,11 +24,11 @@ End the program
 #RegisterNumber:22009242
 import numpy as np
 a=np.array([[1,0,3],[-1,2,-2],[2,3,-1]])
-b=np.linalg.inv(a);
+b=np.linalg.inv(a)
 print(b)
 ```
 ## Output:
 ![](Inverse.png)
-## Result:
-Thus the inverse of given matrix is successfully solved using python program
 
+## Result:
+Thus the inverse of given matrix is successfully solved using python program.
